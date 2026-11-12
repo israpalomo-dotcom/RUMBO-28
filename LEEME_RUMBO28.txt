@@ -1,0 +1,95 @@
+RUMBO 28 — PROTOTIPO FUNCIONAL
+Colegio de Bachilleres del Estado de San Luis Potosí · Plantel 28
+Encuentro de Jóvenes Investigadores 2026 · Desarrollo Tecnológico
+
+QUÉ ES
+RUMBO 28 es una microaplicación escolar para jóvenes de bachillerato.
+Se creó a partir de las funciones prioritarias que describe el proyecto
+"Aplicaciones móviles y rendimiento académico en M-1F COBACH 28".
+
+EQUIPO INVESTIGADOR
+Victoria Daniela Palomo Cantón
+Ana Valeria Palacios Bernal
+Ángel Tadeo Ramírez Juárez
+Asesora: Mtra. Paloma Citlalli Palomo Chávez
+
+FUNCIONES
+- Inicio: resumen de tareas y entregas, progreso y próximos días.
+- Mis tareas: creación, edición, filtros, pendientes y tareas terminadas.
+- Horario: administración de materias y de clases por día de la semana.
+- Enfoque: sesiones de 25 o 15 minutos y descansos de 5 minutos.
+- Evaluar: cuestionario anónimo de cuatro criterios, comentarios y CSV.
+- Calendario: cada tarea permite descargar un evento .ics con aviso sugerido.
+- Copia de seguridad: exportar/importar archivos JSON.
+
+OPCIÓN A. ABRIR SIN INTERNET (WINDOWS/MAC)
+1. Abre index.html haciendo doble clic.
+2. En el navegador, presiona «+ Nueva tarea» o explora las cinco pestañas.
+3. La primera vez verás datos de demostración que pueden modificarse.
+4. Para respaldar cambios, selecciona Opciones > Descargar respaldo.
+   En el modo archivo local algunos navegadores limitan el almacenamiento;
+   por eso es importante descargar el respaldo si se captura información real.
+
+OPCIÓN B. PUBLICAR GRATIS CON GITHUB PAGES (PARA USAR EN CELULARES)
+No requiere dominio propio ni contratar hospedaje. GitHub Free permite
+publicar sitios desde repositorios públicos.
+1. Crea una cuenta gratuita en https://github.com (si aún no cuentas con una).
+2. Selecciona New repository. Ponle nombre rumbo28 y elige Public.
+3. Dentro del repositorio, selecciona Add file > Upload files.
+4. Sube LOS CINCO archivos que acompañan esta guía:
+   index.html, manifest.webmanifest, sw.js, icon-192.png, icon-512.png
+   y confirma con Commit changes. No subas este LEEME si no quieres.
+5. En Settings > Pages, selecciona «Deploy from a branch».
+6. Elige la rama main, carpeta /(root) y guarda.
+7. El enlace será: https://TUUSUARIO.github.io/rumbo28/
+   (con el nombre real de usuario que hayas creado en GitHub).
+8. Visita el enlace en el celular y, si el navegador ofrece instalar la app,
+   utiliza «Añadir a pantalla de inicio» / «Instalar aplicación».
+
+Nota: el enlace comenzará a funcionar cuando GitHub termine de publicar.
+Se puede mostrar sin instalación desde el navegador del celular.
+Tras abrir una vez la versión publicada, la caché puede permitir el uso sin
+internet en visitas posteriores. La funcionalidad depende del navegador.
+
+GUION BREVE PARA LA DEMOSTRACIÓN ANTE EL JURADO (45-60 SEGUNDOS)
+«Detectamos que en nuestro grupo hay dificultades para organizar tareas,
+fechas de entrega y horarios. En la investigación escuchamos a estudiantes
+que pidieron una agenda sencilla, con materias y recordatorios.
+Por eso diseñamos RUMBO 28, un prototipo interactivo de uso gratuito.
+Aquí registramos una tarea, asignamos materia, fecha y prioridad; aquí
+revisamos el horario y aquí comprobamos qué actividades ya terminamos.
+Además integramos un temporizador de enfoque y un instrumento anónimo
+para valorar si la herramienta es clara, fácil de usar y pertinente.
+Todavía no afirmamos que mejore las calificaciones: esa hipótesis
+requeriría un estudio posterior con usuarios durante varias semanas».
+
+CÓMO VALIDAR EL PROTOTIPO EN EL CONCURSO
+1. Inviten a 15 participantes voluntarios a utilizar una misma tablet
+   o computadora y probar registro de tarea, horario y seguimiento.
+2. Después de explorar, cada participante completa la pestaña Evaluar.
+3. Descarguen los resultados anónimos en CSV en esa misma computadora.
+4. Resuman cuántas respuestas obtuvieron y los promedios de claridad,
+   facilidad de uso, utilidad percibida y pertinencia, sin presentar esos
+   resultados como prueba de mejora en las calificaciones.
+5. Documenten comentarios y mejoras propuestas.
+
+PRIVACIDAD Y LIMITACIONES
+- No hay inicio de sesión ni servidores de datos de estudiantes.
+- Las tareas, las respuestas y los horarios se guardan en el dispositivo
+  y navegador concretos. NO se sincronizan entre celulares.
+- Si los participantes evalúan en teléfonos distintos, sus respuestas
+  quedarán en cada uno; para consolidar la evaluación, es más práctico
+  que usen un mismo equipo, o que exporten los CSV por separado.
+- Los avisos al celular requieren importar el archivo .ics en una app de
+  calendario compatible; RUMBO 28 no envía notificaciones push.
+- El temporizador se ejecuta mientras la aplicación permanece abierta.
+- GitHub Pages publica los archivos de la web de forma pública. No suban
+  datos de alumnos, contraseñas, CSV de respuestas ni archivos JSON de
+  respaldo al repositorio público.
+- Se trata de un prototipo funcional de organización escolar, no una app
+  oficial del COBACH ni una demostración de impacto en el rendimiento.
+
+BASE DOCUMENTAL
+«Aplicaciones móviles y rendimiento académico en M-1F COBACH 28»
+(2026), especialmente el capítulo 3, apartado 3.2, funciones prioritarias
+para el prototipo visual y criterios de valoración.
